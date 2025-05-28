@@ -1,0 +1,34 @@
+{
+    "name": "BirdMovement",
+    "maps": [
+        {
+            "name": "Bird",
+            "id": "e5d05266-8bb2-4e52-808d-8811c2cc34d3",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "e2534eb3-156a-4c11-9a12-f2916d68724c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "56755b64-6d12-4f89-8ccb-7b3f588a493b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
