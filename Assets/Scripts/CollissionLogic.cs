@@ -12,6 +12,9 @@ public class CollissionLogic : MonoBehaviour
     private bool isPushed = false;
     private float pushTimer = 0f;
     private Vector3 pushDirection;
+
+    [SerializeField] private BirdVisualController visualController;
+
     private void Awake()
     {
         myrgbd = GetComponent<Rigidbody>();
@@ -26,6 +29,7 @@ public class CollissionLogic : MonoBehaviour
             {
                 isPushed = false;
                 myrgbd.linearVelocity = Vector3.zero;
+                visualController.ResetColor();
             }
         }
     }
@@ -40,6 +44,7 @@ public class CollissionLogic : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
+            visualController.OnHit();
             pushDirection = (endpoint.position - transform.position).normalized;
             isPushed = true;
             pushTimer = pushduration;

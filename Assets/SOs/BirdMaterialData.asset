@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 929d04b7c4a810d4cad0ab625d24e98c, type: 3}
+  m_Name: BirdMaterialData
+  m_EditorClassIdentifier: 
+  birdMaterial: {fileID: 2100000, guid: 309f120b89c57874d86402b5ee36a47a, type: 2}
+  onBaseColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  onJumpColor: {r: 0, g: 1, b: 0, a: 1}
+  onHitColor: {r: 1, g: 0, b: 0, a: 1}

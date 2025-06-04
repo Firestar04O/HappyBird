@@ -25,7 +25,7 @@ public class UIManager : MonoBehaviour
     {
         GameOver.SetActive(false);
         Bird.GetComponent<Rigidbody>().linearVelocity = Vector3.zero;
-        Bird.GetComponent<Transform>().position = new Vector3(10.66f, 0f, 9f);
+        Bird.GetComponent<Transform>().position = new Vector3(-15f, 0f, 9f);
         Debug.Log("reviví");
     }
 }
